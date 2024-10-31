@@ -1,0 +1,27 @@
+.parent{
+    /* background-color:#C4E1F6; */
+    border: 2px solid #C4E1F6;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    color:black;
+    border-radius: 10px;
+}
+.start, .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    padding-right: 80px;
+    gap:2px;
+}
+.sign{
+    background-color:rgb(208, 103, 22);
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+
+    border-radius: 5px;
+    padding: 6px;
+}
