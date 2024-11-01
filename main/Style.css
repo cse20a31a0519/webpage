@@ -33,6 +33,11 @@
     gap: 20px;
     margin: 2px;
 }
+img:focus{
+    text-decoration: none;
+    padding: 30px;
+    color:#FF8F00;
+}
 a{
     text-decoration: none;
     font-size: 16px;
@@ -41,7 +46,11 @@ a{
     font-size: 17px;
 }
 a:hover{
+    text-decoration: none;
       color:#FF8F00;
+}
+a:focus{
+    color:#FF8F00;
 }
 .left3{
     margin: 17px;

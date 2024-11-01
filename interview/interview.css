@@ -1,3 +1,32 @@
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top{
+    display: flex;
+    margin: 12px 50px;
+    background-color:  #f26f17c8;
+    gap: 20px;
+    width: 400px;
+    padding-left:15px ;
+    border-radius: 12px;
+}
+.P1{
+    border: 2px solid #f26f17c8;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    color:  #f26f17c8;
+    padding: 5px;
+
+}
+.P1:hover{
+    background-color: #f26f17c8;
+    color: white;
+    width: ;
+}
+
 .Html{
     display: flex;
     margin: 20px;
@@ -5,10 +34,20 @@
     padding: 50px;
 }
 .div1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 8px 8px 5px gray;
+    border: 2px solid whitesmoke;
     margin: 8px;
     width: 300px;
-    height: 400px;
-    gap:30px;
+    height: 320px;
+    /* gap:30px; */
+}
+iframe{
+    border-radius: 20px;
 }
 span{
     font-size: 25px;
@@ -17,4 +56,18 @@ span{
     color: white;
     border-radius: 20px;
     padding: 10px;
+}
+.S{
+    padding-right:25px ;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color:white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 50px;
+    height: 20px;
+}
+select{
+    width: 100px;
+    height: 30px;
 }

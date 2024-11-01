@@ -1,3 +1,8 @@
+.left{
+    display: flex;
+    justify-content: space-between;
+}
+
 .Html{
     display: flex;
     margin: 20px;
@@ -10,8 +15,8 @@
     border-radius: 20px;
     padding-left: 15px;
     margin: 8px;
-    width: 400px;
-    height: 120px;
+    width: 200px;
+    height: 90px;
     gap:30px;
 }
 span{
@@ -19,6 +24,13 @@ span{
     font-weight: bolder;
     background-color: rgb(232, 145, 24);
     color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.S{
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: white;
     border-radius: 20px;
     padding: 10px;
 }

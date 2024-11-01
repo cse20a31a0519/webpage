@@ -25,3 +25,22 @@
     border-radius: 5px;
     padding: 6px;
 }
+.Html{
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.div1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 8px 8px 5px gray;
+    border: 2px solid whitesmoke;
+    margin: 8px;
+    width: 300px;
+    height: 320px;
+    /* gap:30px; */
+}

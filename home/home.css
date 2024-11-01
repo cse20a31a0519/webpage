@@ -1,7 +1,29 @@
-
+.Html{
+    margin: 0px;
+    background-color:lightblue;
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 8px 8px 5px gray;
+    border: 2px solid whitesmoke;
+    margin: 8px;
+    width: 230px;
+    height: 200px;
+    /* gap:30px; */
+}
 .tab {
     display: flex;
     justify-content: center;
+    background-color: white;
     align-items: center;
     height: 100vh; 
     width: 100vw;
