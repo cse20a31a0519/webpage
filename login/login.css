@@ -9,14 +9,14 @@
 .left{
     display: flex;
     padding-left: 80px;
-    background-color: grey;
+    background-color:#48CFCB;
     border: 2px solid black;
     height: 100%;
     width: 40%;
 }
 .right{
     display: flex;
-    background-color:#6C48C5;
+    background-color:#E4B1F0;
     border: 2px solid black;
     height: 100%;
     flex-direction: column;
@@ -44,7 +44,7 @@
     border-radius: 20px;
 }
 a{
-    background-color:burlywood;
+    background-color:rgb(81, 213, 184);
     width: 150px;
     height: 80px;
     padding: 20px;
